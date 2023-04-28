@@ -8,3 +8,4 @@ exec 1>&2
 git diff --cached --name-only --diff-filter=ACMRTUB | \
   grep '\.js$' | \
   xargs ./node_modules/.bin/eslint --
+  #sample
